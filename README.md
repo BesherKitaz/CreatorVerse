@@ -34,9 +34,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://imgur.com/a/demo-prework-web-103-codepath-nofPv8S' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
+https://imgur.com/a/demo-prework-web-103-codepath-nofPv8S
 
- Screen recorded using Widnows Snippet tool and converted to GIF using Free Convert 
+<img src='https://imgur.com/a/demo-prework-web-103-codepath-nofPv8S' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
+
+
+
+Screen recorded using Widnows Snippet tool and converted to GIF using Free Convert 
 
 
 ## Notes
