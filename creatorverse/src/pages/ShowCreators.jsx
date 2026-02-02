@@ -60,6 +60,7 @@ export default function Creators() {
                 }
                 </div>
             </div>
+            <div> Source for all creators: <a href="https://mashable.com/mashable-101-top-creators-2025/content-creators" target="_blank" rel="noopener noreferrer">https://mashable.com/mashable-101-top-creators-2025/content-creators</a> </div>
         </div>
     )
 }
