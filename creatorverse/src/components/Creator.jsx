@@ -10,7 +10,7 @@ export default function Creator({ name, description, url, imageURL, id }) {
         <div style={{backgroundImage: `url(${imageURL})`}} className="creator-card" onClick={() => navigate(`/creator/${id}`)}>
             <div className="details">
                 <h1> {name} </h1>
-                <p> {description} </p>
+                <p> <a href={url} target="_blank" rel="noopener noreferrer">Online Page</a> </p>
             </div>
         </div>
     )

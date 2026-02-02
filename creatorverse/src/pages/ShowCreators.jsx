@@ -49,7 +49,7 @@ export default function Creators() {
             </div>
 
             <div id='creators' ref={creatorsRef}>
-                <div className='row'>
+                <div className='grid-container'>
                     {creators.map((creator) => (
                         <div className='col' key={creator.id}>
                             <div className="creator-card col-12 col-md-6 mb-4">

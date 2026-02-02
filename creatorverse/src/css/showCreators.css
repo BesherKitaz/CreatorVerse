@@ -1,46 +1,77 @@
+/* Page layout */
 .showCreators-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
+/* Landing section */
 .landing-photo {
-    width: 98%;
-    height: 95vh;
-    background-image: url('../assets/landing2.jpeg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 98%;
+  height: 95vh;
+  background-image: url('../assets/landing2.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Grid wrapper */
+.creators-grid {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
 
+  /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 6fr));
+
+  /* Centers cards when max-width is hit */
+  justify-items: center;
+  width: 100%;
+}
+
+/* Creator card */
 .creator-card {
-    background-size: cover;
-    background-position: center;
-    width: 500px;
-    height: 400px;
-    border-radius: 10px;
-    margin: 20px;
-    transition: transform 0.3s;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
-    color: #34b4eb;
-    padding-top: 20px;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  text-align: center;
+  color: #34b4eb;
+  padding-top: 20px;
+
+  transition: transform 0.3s;
 }
 
+/* Hover effect */
 .creator-card:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: transform 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);
 }
+
+/* Card inner details */
+.creator-card .details {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+

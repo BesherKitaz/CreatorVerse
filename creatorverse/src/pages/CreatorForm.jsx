@@ -109,7 +109,10 @@ export const AddCreator = () => {
           .storage
           .from(bucket)
           .upload(path, file)
-          
+        if (uploadError) {
+          console.error(uploadError);
+          return
+        }
         const { data: publicUrlData } = supabase
           .storage
           .from(bucket)
@@ -136,7 +139,8 @@ export const AddCreator = () => {
 
     return (
         <div className="addCreator-page">
-            <h1> <center> Add a New Creator </center> </h1>
+            {!isEditMode && <h1> <center> Add a New Creator </center> </h1>}
+            {isEditMode && <h1> <center> Edit Creator </center> </h1>}
             <form onSubmit={submit}>
               <div className='addCreatorForm'>
                 <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
