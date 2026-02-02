@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter basename="/CreatorVerse/">
         <Routes>
           <Route path="/" element={<Creators />} />
           <Route path="/add-creator" element={<AddCreator />} />
