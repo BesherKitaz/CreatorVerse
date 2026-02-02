@@ -34,18 +34,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='https://imgur.com/a/demo-prework-web-103-codepath-nofPv8S' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+ Screen recorded using Widnows Snippet tool and converted to GIF using Free Convert 
+
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+- Deploying was a challenge
+- Supabase free tier shuts down database every while and it made a little challenging
+- Styling was a little challenging
+
 
 ## License
 
