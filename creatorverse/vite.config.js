@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    outDir: 'docs', // <-- change "dist" to "build" or whatever you like
+  },
   plugins: [react()],
   base: "/CreatorVerse/",
 })
