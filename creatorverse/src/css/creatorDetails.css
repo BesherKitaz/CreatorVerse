@@ -1,0 +1,66 @@
+.creatorDetails-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: normal; 
+    overflow-wrap: break-word;
+    padding: 20px;
+    max-width: 70vw;
+  }
+.creatorDetails-container p {
+  white-space: normal; 
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+/* backdrop */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* modal */
+.modal-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 90%;
+}
+
+.float-right {
+  float: left;
+  margin: 50px 0 50px 50px; 
+  max-width: 25vw;   
+}
+
+.options {
+    margin-top: 20px;
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options * {
+    padding: 24px;
+    font-size: 24px;
+}
+
+.modal-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.back-button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

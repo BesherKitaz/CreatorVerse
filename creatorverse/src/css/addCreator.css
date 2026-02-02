@@ -1,0 +1,27 @@
+.addCreator-page {
+    margin-top: 5vh;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.addCreatorForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.addCreatorFormButtons {
+    display: flex;
+    flex-direction: row;
+    gap : 10vw;
+    margin-top: 10vh;
+}
